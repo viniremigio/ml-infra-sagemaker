@@ -1,0 +1,7 @@
+terraform {
+  backend "s3" {
+    bucket = "mybucket_name"
+    key = "terraform/ml-infra-sagemaker"
+    region = "us-east-1"
+  }
+}
