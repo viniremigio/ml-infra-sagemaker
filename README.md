@@ -12,7 +12,7 @@ mv terraform_backend.template backend.tf
 
 ## TODO
 
-- :white_check_mark: Instantiate a Sagemaker Notebook with Terraform
+- :white_check_mark: Provision a Sagemaker Notebook with Terraform
 - Create a model deploy package
 - Integrate with an example of ML package
 - Create a training task

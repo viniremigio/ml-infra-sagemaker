@@ -4,7 +4,8 @@ resource "aws_sagemaker_notebook_instance" "notebook" {
   role_arn = aws_iam_role.sagemaker_terraform_notebook_role.arn
 
   tags = {
-    Name = "sagemaker-terraform-test"
+    name = "sagemaker-terraform-test"
+    env = var.env
   }
 }
 
