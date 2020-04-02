@@ -7,7 +7,7 @@
 You first need to create a S3 bucket and then reference it in *backend.tf* file:
 
 ```
-mv terraform_backend.template backend.tf
+mv terraform_backend.template dev/backend.tf
 ```
 
 ## TODO
