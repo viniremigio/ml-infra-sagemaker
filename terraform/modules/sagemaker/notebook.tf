@@ -55,4 +55,3 @@ resource "aws_iam_role_policy" "sagemaker_terraform_notebook_policy" {
 }
 EOF
 }
-
