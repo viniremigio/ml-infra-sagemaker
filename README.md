@@ -13,6 +13,7 @@ mv terraform_backend.template dev/backend.tf
 ## TODO
 
 - :white_check_mark: Provision a Sagemaker Notebook with Terraform
+- Get Jupyter notebook and related files from S3
 - Create a model deploy package
 - Integrate with an example of ML package
 - Create a training task

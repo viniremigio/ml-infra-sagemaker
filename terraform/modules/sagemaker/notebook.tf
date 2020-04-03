@@ -1,4 +1,4 @@
-resource "aws_sagemaker_notebook_instance" "notebook" {
+resource "aws_sagemaker_notebook_instance" "notebook_template" {
   instance_type = "ml.t2.medium"
   name = "sagemaker-terraform-instance"
   role_arn = aws_iam_role.sagemaker_terraform_notebook_role.arn
