@@ -20,6 +20,6 @@ resource "aws_s3_bucket" "sagemaker_notebook_bucket" {
 
 resource "aws_s3_bucket_object" "upload_notebooks" {
   bucket = aws_s3_bucket.sagemaker_notebook_bucket.id
-  key = "sagemaker/notebooks/script.py"
-  source = "${path.module}/../../../source/notebooks/script.py"
+  key = "sagemaker/notebooks/housing_price.ipynb"
+  source = "${path.module}/../../../source/notebooks/housing_price.ipynb"
 }

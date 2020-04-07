@@ -1,6 +1,8 @@
 .idea/
 .terraform/
 .terraform.tfstate.lock.info
+.ipynb_checkpoints/
 terraform.tfstate*
 terraform.tfvars
 backend.tf
+nohup.out
